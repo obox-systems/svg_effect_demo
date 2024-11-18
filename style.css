@@ -1,0 +1,33 @@
+body
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+#color-wheel-info-box
+{
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  width: 200px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1 );
+  display: none;
+}
+
+#color-wheel-info-box button
+{
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+svg
+{
+  cursor: pointer;
+}
